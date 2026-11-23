@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "tie-keepers: code for 'Artificial intelligence turns investment in people into cooperation with the future'"
+authors:
+  - family-names: Klein
+    given-names: Christian R.
+    orcid: "https://orcid.org/0009-0006-1306-7775"
+    affiliation: "University Hospital Bonn"
+  - family-names: Klein
+    given-names: Reinhard
+    orcid: "https://orcid.org/0000-0002-5505-9347"
+    affiliation: "University of Bonn"
+license: MIT
+repository-code: "https://github.com/ChristianRKlein/tie-keepers"
+date-released: 2026-11-23

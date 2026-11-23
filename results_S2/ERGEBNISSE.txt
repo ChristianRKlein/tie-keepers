@@ -1,0 +1,53 @@
+SCHRITT 2 (v2) - Vierfeldertafel: Kooperation mit Menschen oder mit KI
+======================================================================
+theta = 0.5 (Standard) | KI-Kosten c_A in Einheiten von c0 | Laufzeit 0.1 min
+
+Validierung sigma-Regel (exakte Markov-Kette):
+  sigma-Regel 2x2-Spiel 1 (N=7, unregelmaessig)      Theorie 0.48117 | exakt 0.48117
+  sigma-Regel 2x2-Spiel 2 (N=7, unregelmaessig)      Theorie -0.52071 | exakt -0.52072
+  sigma-Regel 2x2-Spiel 3 (N=7, unregelmaessig)      Theorie -2.03475 | exakt -2.03469
+
+Wissenschaft
+  alpha=   0  ohne KI-Kosten: Hirschjagd         | Mensch gewinnt ab c_A/c0 = 0.00 (Netz) vs 0.40 (gemischt)
+  alpha=   1  ohne KI-Kosten: Gefangenendilemma  | Mensch gewinnt ab c_A/c0 = 1.05 (Netz) vs 1.45 (gemischt)
+  alpha=   2  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 1.85 (Netz) vs 2.25 (gemischt)
+  alpha=   3  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 2.60 (Netz) vs 3.00 (gemischt)
+  alpha=   4  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 3.30 (Netz) vs 3.75 (gemischt)
+  alpha=   6  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 4.70 (Netz) vs 5.15 (gemischt)
+  alpha=   8  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 6.05 (Netz) vs 6.50 (gemischt)
+  alpha=  12  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 8.60 (Netz) vs 9.05 (gemischt)
+  alpha=  16  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 11.20 (Netz) vs 11.65 (gemischt)
+
+Wirtschaft
+  alpha=   0  ohne KI-Kosten: Hirschjagd         | Mensch gewinnt ab c_A/c0 = 0.05 (Netz) vs 0.40 (gemischt)
+  alpha=   1  ohne KI-Kosten: Gefangenendilemma  | Mensch gewinnt ab c_A/c0 = 1.15 (Netz) vs 1.50 (gemischt)
+  alpha=   2  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 2.15 (Netz) vs 2.45 (gemischt)
+  alpha=   3  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 3.10 (Netz) vs 3.45 (gemischt)
+  alpha=   4  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 4.10 (Netz) vs 4.40 (gemischt)
+  alpha=   6  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 6.00 (Netz) vs 6.30 (gemischt)
+  alpha=   8  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 7.90 (Netz) vs 8.25 (gemischt)
+  alpha=  12  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 11.65 (Netz) vs 12.00 (gemischt)
+  alpha=  16  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 15.35 (Netz) vs 15.70 (gemischt)
+
+Sozial
+  alpha=   0  ohne KI-Kosten: Hirschjagd         | Mensch gewinnt ab c_A/c0 = 0.30 (Netz) vs 0.50 (gemischt)
+  alpha=   1  ohne KI-Kosten: Gefangenendilemma  | Mensch gewinnt ab c_A/c0 = 0.80 (Netz) vs 1.00 (gemischt)
+  alpha=   2  ohne KI-Kosten: Gefangenendilemma  | Mensch gewinnt ab c_A/c0 = 1.00 (Netz) vs 1.25 (gemischt)
+  alpha=   3  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 1.15 (Netz) vs 1.40 (gemischt)
+  alpha=   4  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 1.25 (Netz) vs 1.50 (gemischt)
+  alpha=   6  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 1.35 (Netz) vs 1.60 (gemischt)
+  alpha=   8  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 1.45 (Netz) vs 1.70 (gemischt)
+  alpha=  12  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 1.55 (Netz) vs 1.80 (gemischt)
+  alpha=  16  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 1.55 (Netz) vs 1.85 (gemischt)
+
+Wissenschaft + Koordination (kappa=1)
+  alpha=   0  ohne KI-Kosten: Hirschjagd         | Mensch gewinnt ab c_A/c0 = 0.00 (Netz) vs 0.40 (gemischt)
+  alpha=   1  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 1.05 (Netz) vs 1.30 (gemischt)
+  alpha=   2  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 1.90 (Netz) vs 2.05 (gemischt)
+  alpha=   3  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 2.65 (Netz) vs 2.80 (gemischt)
+  alpha=   4  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 3.35 (Netz) vs 3.50 (gemischt)
+  alpha=   6  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 4.75 (Netz) vs 4.85 (gemischt)
+  alpha=   8  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 6.05 (Netz) vs 6.15 (gemischt)
+  alpha=  12  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 8.65 (Netz) vs 8.70 (gemischt)
+  alpha=  16  ohne KI-Kosten: KI dominiert       | Mensch gewinnt ab c_A/c0 = 11.20 (Netz) vs 11.25 (gemischt)
+

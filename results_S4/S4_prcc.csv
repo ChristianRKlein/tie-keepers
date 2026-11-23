@@ -1,0 +1,11 @@
+parameter,prcc_kollaps
+Pflegekosten c,-0.708835
+Häufigkeit Ernstfall,0.708211
+Sättigung k0,-0.301947
+Gewicht 2 Schritte η,-0.00431569
+Zeithorizont (β),0.421395
+Zerfall ohne Pflege d0,0.290877
+Wiederaufbaukosten K,-0.229649
+Versehen ε,-0.241771
+Gedächtnis Vertrauen,-0.184322
+Zerfall einseitig d1 (w),-0.281173
